@@ -15,25 +15,25 @@ namespace Task2
     Змініть значення полів екземплярів на «не змінено», а потім викличте методи ClassTaker і StruktTaker. 
     Виведіть на екран значення полів екземплярів. Проаналізуйте отримані результати. 
      */
+    class MyClass
+    {
+        public string change;
+    }
+    struct MyStruct
+    {
+        public string change;
+    }
     internal class Program
     {
-        class MyClass
-        {
-            public string change;
-        }
-        struct MyStruct
-        {
-            public string change;
-        }
         static void ClassTaker(MyClass myClass)
         {
-            MyClass myClass1 = new MyClass();
+            //MyClass myClass1 = new MyClass();
             myClass.change = "змінено";
         }
         static void StruktTaker(MyStruct myStruct)
         {
-            MyStruct myStruct1 = new MyStruct();
-            myStruct1.change = "змінено";
+            //MyStruct myStruct1 = new MyStruct();
+            myStruct.change = "змінено";
         }
         static void Main(string[] args)
         {
@@ -43,8 +43,8 @@ namespace Task2
             myStruct.change = "не змінено";
             ClassTaker(myClass);
             StruktTaker(myStruct);
-            Console.WriteLine(myClass.change);
-            Console.WriteLine(myStruct.change);
+            Console.WriteLine("Поле класу = {0}", myClass.change);
+            Console.WriteLine("Поле структури = {0}",myStruct.change);
 
             //Dellay
             Console.ReadKey();
