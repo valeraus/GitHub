@@ -17,7 +17,7 @@ namespace Task2
     {
         public void FindNext(string str)
         {
-            Console.WriteLine("Пошук рядка : " + str);
+            Console.WriteLine("Поиск строки : " + str);
         }
     }
 
@@ -34,7 +34,7 @@ namespace Task2
     {
         static void Main()
         {
-            FindAndReplaceManager.FindNext("Text");
+            FindAndReplaceManager.FindNext("Hello");
 
             // Delay.
             Console.ReadKey();
