@@ -1,0 +1,8 @@
+C:\Users\Valera\Documents\GitHub\Essential\Lesson9\AddTask\bin\Debug\AddTask.exe.config
+C:\Users\Valera\Documents\GitHub\Essential\Lesson9\AddTask\bin\Debug\AddTask.exe
+C:\Users\Valera\Documents\GitHub\Essential\Lesson9\AddTask\bin\Debug\AddTask.pdb
+C:\Users\Valera\Documents\GitHub\Essential\Lesson9\AddTask\obj\Debug\AddTask.csproj.AssemblyReference.cache
+C:\Users\Valera\Documents\GitHub\Essential\Lesson9\AddTask\obj\Debug\AddTask.csproj.SuggestedBindingRedirects.cache
+C:\Users\Valera\Documents\GitHub\Essential\Lesson9\AddTask\obj\Debug\AddTask.csproj.CoreCompileInputs.cache
+C:\Users\Valera\Documents\GitHub\Essential\Lesson9\AddTask\obj\Debug\AddTask.exe
+C:\Users\Valera\Documents\GitHub\Essential\Lesson9\AddTask\obj\Debug\AddTask.pdb
